@@ -11,7 +11,7 @@ import SwiftUI
 struct Floating_LabelApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(firstName: "", lastName: "")
         }
     }
 }
